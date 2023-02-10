@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\joonho\workspace\repos\cgcircuit\00_first_plugin\build\CMakeFiles\59e61f04f95a360bde9c5020a5b36b29\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A3AD5433-495A-3ADC-8469-B7B9F8142F9C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

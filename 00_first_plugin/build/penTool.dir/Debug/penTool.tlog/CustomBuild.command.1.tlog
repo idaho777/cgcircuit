@@ -1,0 +1,10 @@
+^C:\USERS\JOONHO\WORKSPACE\REPOS\CGCIRCUIT\00_FIRST_PLUGIN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/joonho/workspace/repos/cgcircuit/00_first_plugin -BC:/Users/joonho/workspace/repos/cgcircuit/00_first_plugin/build --check-stamp-file C:/Users/joonho/workspace/repos/cgcircuit/00_first_plugin/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

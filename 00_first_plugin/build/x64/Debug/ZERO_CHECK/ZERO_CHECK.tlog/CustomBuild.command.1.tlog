@@ -1,0 +1,10 @@
+^C:\USERS\JOONHO\WORKSPACE\REPOS\CGCIRCUIT\00_FIRST_PLUGIN\BUILD\CMAKEFILES\59E61F04F95A360BDE9C5020A5B36B29\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/joonho/workspace/repos/cgcircuit/00_first_plugin -BC:/Users/joonho/workspace/repos/cgcircuit/00_first_plugin/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/joonho/workspace/repos/cgcircuit/00_first_plugin/build/penTool.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
