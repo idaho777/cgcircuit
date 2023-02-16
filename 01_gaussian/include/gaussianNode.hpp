@@ -4,7 +4,10 @@
 #include <maya/MPxNode.h>
 #include <maya/MFnNumericAttribute.h>
 
-class GaussianNode : publid MPxNode
+#include <math.h>
+#include <iostream>
+
+class GaussianNode : public MPxNode
 {
 public:
     GaussianNode();
@@ -15,6 +18,8 @@ public:
 
     static MStatus initialize();    // setup node attributes
     
+    static MTypeId id;  // Unique Node Id
+
     // Every GaussianNode will have these attributes.
     static MObject aOutValue;
     static MObject aInValue;
@@ -22,6 +27,6 @@ public:
     static MObject aMean;
     static MObject aVariance;
 
-}
+};
 
 #endif // GAUSSIANNODE_HPP

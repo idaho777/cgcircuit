@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-set(PROJECT_NAME gaussian_node)
+set(PROJECT_NAME blendMesh)
 project(${PROJECT_NAME})
 
 ######### Maya #########
@@ -23,6 +23,7 @@ set(SOURCE_FILES
 set(LIBRARIES
     OpenMaya
     OpenMayaUI
+    OpenMayaAnim
     Foundation
 )
 
